@@ -5,3 +5,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* Background di Lecce */
+#lecce {
+  background: url(../img/lecce.jpg);
+  background-size: cover;
+}
+
+/* Background di Otranto */
+#otranto {
+  background: url(../img/otranto.webp);
+  background-size: cover;
+}
+
+/*Background di Sant'Andrea */
+#sant-andrea {
+  background: url(../img/sant-andrea.jpg);
+  background-size: cover;
+}
+
+/*Background di Gallipoli */
+#gallipoli {
+  background: url(../img/gallipoli.jpg);
+  background-size: cover;
+}
+
+/*Background di Acquaviva Marittima */
+#acquaviva-marittima {
+  background: url(../img/acquaviva-marittima.jpg);
+  background-size: cover;
+}
+
+/*Background di Alberobello */
+#alberobello {
+  background: url(../img/alberobello.jpg);
+  background-size: cover;
+}
+
+/* Regole Generali città */
+.città {
+  width: 1500px;
+  height: 100vh;
+  position: relative;
+  margin: 5px auto;
+}
+
+/* Regole text nome città */
+.nome-città {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  text-shadow: 2px 2px #000;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
