@@ -9,27 +9,32 @@
 #lecce {
   background: url(../img/lecce.jpg);
   background-size: cover;
+  box-shadow: 3px 3px;
+
 }
 
 /* Background di Otranto */
 #otranto {
   background: url(../img/otranto.webp);
   background-size: cover;
+  box-shadow: 3px 3px;
+
 }
 
 /*Background di Sant'Andrea */
 #sant-andrea {
   background: url(../img/sant-andrea.jpg);
   background-size: cover;
+  box-shadow: 3px 3px;
+
 }
 
 /* Regole Generali città */
 .città {
-  width: 1200px;
-  height: 800px;
+  width: 800px;
+  height: 400px;
   position: relative;
-  margin: 0 auto;
-
+  margin: 5px auto;
 }
 
 /* Regole text nome città */
