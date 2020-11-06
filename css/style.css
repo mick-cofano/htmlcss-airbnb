@@ -5,20 +5,42 @@
   box-sizing: border-box;
 }
 
-/* Regole Generali città */
-.città {
-  position: relative;
-  background: red;
-  width: 1200px;
-  height: 400px;
-  border: 1px solid black;
-  color: white;
+/* Background di Lecce */
+#lecce {
+  background: url(../img/lecce.jpg);
+  background-size: cover;
 }
 
-/* Regole nome città */
+/* Background di Otranto */
+#otranto {
+  background: url(../img/otranto.webp);
+  background-size: cover;
+}
+
+/*Background di Sant'Andrea */
+#sant-andrea {
+  background: url(../img/sant-andrea.jpg);
+  background-size: cover;
+}
+
+/* Regole Generali città */
+.città {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+/* Regole text nome città */
 .nome-città {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  font-size: 40px;
+  text-shadow: 2px 2px #000;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
 }
